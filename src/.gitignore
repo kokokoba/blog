@@ -13,4 +13,4 @@ dist
 # Service Worker
 sw.*
 
-
+.contentful.json
