@@ -1,4 +1,15 @@
-/*@charset "utf-8";*/
+@charset "utf-8";
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#333;
+  text-decoration: none;
+  opacity: 0.5;
+}
 
 /*body {*/
   /*font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;*/

@@ -12,7 +12,7 @@
             <div class="content">
               {{ post.fields.description }}
               <br>
-              <!--<small>{{ ( new Date(post.fields.publishDate)).toDateString() }}</small>-->
+              <small>{{ ( new Date(post.fields.publishDate)).toDateString() }}</small>
             </div>
           </div>
           <footer class="card-footer">

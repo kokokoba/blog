@@ -6,9 +6,9 @@ const client = contentful.createClient({
 })
 
 module.exports = {
-  router: {
-    base: '/blog/'
-  },
+  // router: {
+  //   base: '/blog/'
+  // },
   /*
   ** Generate configuration
   */

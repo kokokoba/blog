@@ -1,13 +1,13 @@
 <template>
   <div>
-    <section class="hero is-medium is-primary is-bold">
+    <section class="hero is-medium is-info is-bold">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Welcome to the JavaScript SSR Blog.
+            Tatsuya Engineer Blog
           </h1>
           <h2 class="subtitle">
-            Hope you find something you like.
+            愛媛から東京に上京してエンジニアになった見習いプログラマのブログです！
           </h2>
         </div>
       </div>
