@@ -5,7 +5,7 @@
     </h1>
     <div class="columns is-multiline">
       <div class="column is-4" v-for="post in posts">
-        <nuxt-link :to="{ name: 'posts-slug', params: { slug: post.fields.slug }}">
+        <nuxt-link :to="{ name: 'posts-slug', params: { slug: post.fields.slug }}" style="height: 100%;">
           <div class="card">
             <header class="card-header">
               <img :src="'https:'+post.fields.heroImage.fields.file.url" style="width:200px; height:300px;" class="card-header-title" />

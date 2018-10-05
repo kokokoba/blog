@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="post">
     <header class="header">
       <img
         v-if="currentPost.fields.heroImage"
@@ -12,7 +12,7 @@
     <article class="section">
       <div class="headline">
         <h1 class="title has-text-centered">{{ currentPost.fields.title }}</h1>
-        <!--<p class="headline__date has-text-right">{{ ( new Date(currentPost.fields.publishDate)).toDateString() }}</p>-->
+        <p class="headline__date has-text-right">{{ currentPost.fields.publishDate }}</p>
       </div>
       <vue-markdown class="content">{{ currentPost.fields.body }}</vue-markdown>
       <nav class="pagination is-centered" role="navigation" aria-label="pagination">
@@ -102,4 +102,12 @@
   .content {
     margin-bottom: 3rem;
   }
+
+  /* PC向けレイアウトの指定：961px～ */
+  @media only screen and (min-width: 961px) {
+    #post {
+      width: 1200px;
+      margin: 0 auto;
+    }
+  } /* PC向け */
 </style>

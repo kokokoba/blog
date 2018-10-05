@@ -42,8 +42,14 @@
 </script>
 
 <style scoped>
+  h1 {
+    margin-bottom: 0;
+  }
+
   h1 a {
     color: #333;
     text-decoration: none;
+    vertical-align: -webkit-baseline-middle;
   }
+
 </style>
